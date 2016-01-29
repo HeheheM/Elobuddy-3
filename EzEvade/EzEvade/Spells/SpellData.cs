@@ -51,6 +51,18 @@ namespace ezEvade
         public string[] extraSpellNames;
         public string[] extraMissileNames;
         public CollisionObjectType[] collisionObjects = { };
+        internal string SpellName;
+        internal string CharName;
+        internal int Dangerlevel;
+        internal int Radius;
+
+        public float ProjectileSpeed { get; internal set; }
+        public int SpellDelay { get; internal set; }
+        public string MissileName { get; internal set; }
+        public int Range { get; internal set; }
+        public SpellSlot SpellKey { get; internal set; }
+        public SpellType SpellType { get; internal set; }
+        public CollisionObjectType[] CollisionObjects { get; internal set; }
 
         public SpellData()
         {

@@ -19,10 +19,7 @@ namespace ezEvade
 
         public static SpellDetector spellDetector;
         private static SpellDrawer spellDrawer;
-        private static EvadeTester evadeTester;
-        private static PingTester pingTester;
         private static EvadeSpell evadeSpell;
-        private static SpellTester spellTester;
         private static AutoSetPing autoSetPing;
 
         public static SpellSlot lastSpellCast;
@@ -189,9 +186,7 @@ namespace ezEvade
                 resetMenu.Add("ResetConfig200", new CheckBox("Set Patch Config", true));
 
 
-                Menu loadTestMenu = menu.AddSubMenuEx("Tests", "LoadTests");
-                loadTestMenu.Add("LoadPingTester", new CheckBox("Load Ping Tester", false)).OnValueChange += OnLoadPingTesterChange;
-                loadTestMenu.Add("LoadSpellTester", new CheckBox("Load Spell Tester", false)).OnValueChange += OnLoadSpellTesterChange;
+               
 
                 spellDrawer = new SpellDrawer(menu);
 
@@ -278,25 +273,7 @@ namespace ezEvade
             }
         }
 
-        private void OnLoadPingTesterChange(ValueBase<bool> sender, ValueBase<bool>.ValueChangeArgs changeArgs)
-        {
-            sender.CurrentValue = changeArgs.OldValue;
-
-            if (pingTester == null)
-            {
-                pingTester = new PingTester();
-            }
-        }
-
-        private void OnLoadSpellTesterChange(ValueBase<bool> sender, ValueBase<bool>.ValueChangeArgs changeArgs)
-        {
-            sender.CurrentValue = changeArgs.OldValue;
-
-            if (spellTester == null)
-            {
-                spellTester = new SpellTester();
-            }
-        }
+      
 
         private void Game_OnGameEnd(GameEndEventArgs args)
         {

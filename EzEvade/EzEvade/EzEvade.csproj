@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7FFFA7E9-9A2E-4FCC-84F0-BE5415782F02}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -13,37 +13,37 @@
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\Release</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Release</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EloBuddy">
-      <HintPath>..\..\..\EloBuddy\EloBuddy\System\EloBuddy.dll</HintPath>
+      <HintPath>C:\Users\MeLo\AppData\Roaming\EloBuddy\Addons\Libraries\EloBuddy.dll</HintPath>
     </Reference>
     <Reference Include="EloBuddy.SDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6b574a82b1ea937e, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\EloBuddy\EloBuddy\System\EloBuddy.SDK.dll</HintPath>
+      <HintPath>C:\Users\MeLo\AppData\Roaming\EloBuddy\Addons\Libraries\EloBuddy.SDK.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\EloBuddy\EloBuddy\System\SharpDX.dll</HintPath>
+      <HintPath>C:\Users\MeLo\AppData\Roaming\EloBuddy\Addons\Libraries\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct3D9">
-      <HintPath>..\..\..\EloBuddy\EloBuddy\System\SharpDX.Direct3D9.dll</HintPath>
+      <HintPath>C:\Users\MeLo\AppData\Roaming\EloBuddy\Addons\Libraries\SharpDX.Direct3D9.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,7 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Burrito.cs" />
+    <Compile Include="EzEvade.cs" />
     <Compile Include="Core\Evade.cs" />
     <Compile Include="Core\EvadeHelper.cs" />
     <Compile Include="Draw\RenderCircle.cs" />
@@ -103,9 +103,6 @@
     <Compile Include="Spells\SpellDetector.cs" />
     <Compile Include="Spells\SpellDrawer.cs" />
     <Compile Include="Spells\SpellWindupDatabase.cs" />
-    <Compile Include="Tests\EvadeTester.cs" />
-    <Compile Include="Tests\PingTester.cs" />
-    <Compile Include="Tests\SpellTester.cs" />
     <Compile Include="Utils\ConsolePrinter.cs" />
     <Compile Include="Utils\DelayAction.cs" />
     <Compile Include="Utils\EvadeUtils.cs" />

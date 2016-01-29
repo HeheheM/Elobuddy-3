@@ -1,5 +1,4 @@
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\EzEvade.exe.config
-C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\obj\Debug\EzEvade.csprojResolveAssemblyReference.cache
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\EzEvade.exe
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\EzEvade.pdb
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\EloBuddy.dll
@@ -9,6 +8,11 @@ C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\SharpDX.d
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Debug\Newtonsoft.Json.dll
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\obj\Debug\EzEvade.exe
 C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\obj\Debug\EzEvade.pdb
-C:\Users\MeLo\Desktop\Elobuddy\EzEvade\EzEvade\bin\Debug\EzEvade.exe.config
-C:\Users\MeLo\Desktop\Elobuddy\EzEvade\EzEvade\obj\Debug\EzEvade.exe
-C:\Users\MeLo\Desktop\Elobuddy\EzEvade\EzEvade\obj\Debug\EzEvade.pdb
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\EzEvade.exe.config
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\EzEvade.exe
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\EzEvade.pdb
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\EloBuddy.dll
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\EloBuddy.SDK.dll
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\SharpDX.dll
+C:\Users\MeLo\Desktop\EloBuddy-Addons-master\EzEvade\EzEvade\bin\Release\Newtonsoft.Json.dll
