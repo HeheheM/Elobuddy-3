@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
 using EloBuddy;
 
@@ -110,13 +110,14 @@ namespace ezEvade
             {
                 charName = "Ahri",
                 dangerlevel = 3,
+                missileName = "AhriOrbofDeception2",
                 name = "Orb of Deception Back",
                 projectileSpeed = 915,
                 radius = 100,
                 range = 925,
                 spellDelay = 250,
                 spellKey = SpellSlot.Q,
-                spellName = "AhriOrbofDeception2",
+                spellName = "AhriOrbReturn",
                 spellType = SpellType.Line,
 
             });
