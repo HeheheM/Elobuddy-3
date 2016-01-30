@@ -116,7 +116,7 @@ namespace ezEvade
                 range = 925,
                 spellDelay = 250,
                 spellKey = SpellSlot.Q,
-                spellName = "AhriOrbofDeception2",
+                spellName = "AhriOrbReturn",
                 spellType = SpellType.Line,
 
             });
